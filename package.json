@@ -9,7 +9,8 @@
     "graphql": "strapi install graphql",
     "documentation": "strapi install documentation",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "heroku-postbuild": "npm install && npm run build"
   },
   "devDependencies": {},
   "dependencies": {
